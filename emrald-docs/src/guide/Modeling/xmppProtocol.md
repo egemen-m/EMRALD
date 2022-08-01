@@ -164,7 +164,7 @@ In this condition there was an error somewhere in the simulation or communicatio
 **atTerminate** 
 * Shut down simulation and all associated threads.
 
-### Sequence Diagram
+### Flow Diagram
 ![Messaging State Digram](/images/Modeling/xmppProtocol/XMPP_Msg_StateDiagram.png)<br>
 This state diagram shows the recommended design flow for reacting to EMRALD messages outlined in the above section. Immediate actions are what should be done when entering the status state. The events are either messages from EMRALD or conditions that happen inside the simulation. The sub items under the Events are Actions to be taken if the Event occurs. Both atPing and atStatus are ignored in this diagram because they should be responded to in every state.
 
